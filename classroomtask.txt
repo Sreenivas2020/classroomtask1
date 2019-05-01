@@ -1,0 +1,16 @@
+#from bash we download the book first
+wget https://www.gutenberg.org/files/59384/59384-h/59384-h.htm
+
+#after downloading the book save the file wit a name book.txt
+#after downloading file we further proceed into the python console
+python3
+file = open("book.txt")
+
+#to print 20 largest words in a book
+def words():
+  file=open('book.txt')
+     large_word=''
+     for line in file:
+       if len(line)>len(longg):
+          large_word=line
+        return large_word
